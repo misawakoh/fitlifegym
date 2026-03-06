@@ -803,6 +803,7 @@ footer .footer-nav .nav-menu-left {
 }
 footer .footer-nav .nav-menu-left ul li {
   font-family: "Manrope", sans-serif;
+  font-size: 14px;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: italic;
@@ -819,6 +820,7 @@ footer .footer-nav .nav-menu-right {
 }
 footer .footer-nav .nav-menu-right ul li {
   font-family: "Manrope", sans-serif;
+  font-size: 14px;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: italic;
