@@ -1,0 +1,133 @@
+@use 'mixin' as m;
+
+.facility {
+    background-color: #F2F1ED;
+    padding-bottom: 120px;
+
+    @include m.sp {
+        padding-bottom: 64px;
+    }
+
+    .facility-intro {
+        margin-bottom: 80px;
+        text-align: left;
+    }
+
+    .facility-flex {
+        display: flex;
+        justify-content: space-between;
+
+        @include m.sp {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .facility-flex-item {
+            width: 32%;
+
+            @include m.sp {
+                width: 100%;
+                max-width: 480px;
+                text-align: center;
+                margin-bottom: 32px;
+            }
+
+            .facility-text-title {
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+                height: 200px;
+                display: block;
+
+                @include m.sp {
+                    object-fit: cover;
+                    height: auto;
+                }
+            }
+
+            p {
+                margin-top: 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.amenities {
+    color: #F2F1ED;
+    margin-bottom: 120px;
+
+    @include m.sp {
+        margin-bottom: 64px;
+    }
+
+    .amenities-flex {
+
+        .amenities-flex-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+
+            @include m.sp {
+                flex-direction: column;
+            }
+
+            .amenities-text-title {
+                font-weight: bold;
+                margin-bottom: 32px;
+            }
+
+            .amenities-text {
+                text-align: left;
+                margin-right: 32px;
+
+                @include m.sp {
+                    text-align: center;
+                    margin-right: 0;
+                    margin-bottom: 32px;
+                }
+            }
+
+            img {
+                width: 460px;
+                height: 300px;
+            }
+        }
+
+        .amenities-flex-item-center {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+
+            @include m.sp {
+                flex-direction: column-reverse;
+                margin-inline: 24px;
+            }
+
+            .amenities-text-title {
+                font-weight: bold;
+                margin-bottom: 32px;
+            }
+        }
+
+        .amenities-text-center {
+            text-align: left;
+            margin-left: 32px;
+
+            @include m.sp {
+                text-align: center;
+                margin-left: 0;
+                margin-bottom: 32px;
+            }
+        }
+
+        img {
+            width: 460px;
+            height: 300px;
+        }
+    }
+}

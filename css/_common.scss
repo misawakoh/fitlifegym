@@ -1,0 +1,79 @@
+@use 'mixin' as m;
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #2E2C29;
+    overflow-x: hidden;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F2F1ED;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    padding-inline: 16px;
+    margin-inline: auto;
+
+    @include m.sp {
+        padding-inline: 32px;
+    }
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+
+    @include m.sp {
+        padding-inline: 32px;
+    }
+}
+
+.sec-title {
+    text-align: center;
+    border-bottom: 1px #000 solid;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+    @include m.sp {
+        margin-top: 40px;
+    }
+}
+
+.accent {
+    color: #F2F1ED;
+    border-bottom-color: #F2F1ED;
+}
+
+section {
+    text-align: center;
+}
+
+.section-bg {
+    background-color: #F2F1ED;
+}
+
+.section-gr {
+    background-image: linear-gradient(34deg, #8c8989, #6f6f6f 33%, #2e2c29 60%);
+}
+
+.wpcf7-spinner {
+    display: none !important;
+}
