@@ -798,7 +798,7 @@ footer .footer-nav .nav-menu-left {
 @media (max-width: 767px) {
   footer .footer-nav .nav-menu-left ul {
     display: flex;
-    gap: 24px;
+    gap: 12px;
   }
 }
 footer .footer-nav .nav-menu-left ul li {
@@ -814,7 +814,7 @@ footer .footer-nav .nav-menu-right {
 @media (max-width: 767px) {
   footer .footer-nav .nav-menu-right ul {
     display: flex;
-    gap: 24px;
+    gap: 12px;
   }
 }
 footer .footer-nav .nav-menu-right ul li {
