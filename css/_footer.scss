@@ -27,6 +27,10 @@ footer {
         .nav-menu-left {
             margin-left: 16px;
 
+            @include m.sp {
+                margin-left: 0;
+            }
+
             ul {
                 @include m.sp {
                     display: flex;

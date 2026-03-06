@@ -796,6 +796,11 @@ footer .footer-nav .nav-menu-left {
   margin-left: 16px;
 }
 @media (max-width: 767px) {
+  footer .footer-nav .nav-menu-left {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
   footer .footer-nav .nav-menu-left ul {
     display: flex;
     gap: 12px;
