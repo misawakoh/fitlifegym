@@ -1169,7 +1169,7 @@ footer dd {
 }
 @media (max-width: 767px) {
   .gym-overview .gym-overview-btn {
-    margin-inline: 32px;
+    margin-inline: 64px;
   }
 }
 .gym-overview .gym-overview-btn:hover {
